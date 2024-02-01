@@ -7,7 +7,7 @@ def send_email(message):
     port = 465
 
     username = "kalmartibor8243@gmail.com"
-    password = "vcjx wycm uqyr lyuh"
+    password = os.getenv("PASSWORD")
 
     # PASSWORD = vcjx wycm uqyr lyuh
     # GMAIL_PASSWORD = vdvr ayih ummr wesb
